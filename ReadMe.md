@@ -7,7 +7,9 @@ A lightweight and simple Pastebin integration plugin for IntelliJ IDEA, allowing
 paste it in the API_KEY field in the PastebinApiService class(in our case I used my own API key, so you do not need to get one)
 
 2)Run ./gradlew clean buildPlugin
+
 3)Run ./gradlew runIde
+
 4)Select the text you want to share and press option+command+\ and then press option+command+'
 
 
