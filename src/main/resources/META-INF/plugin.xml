@@ -1,0 +1,25 @@
+<idea-plugin>
+    <id>com.ivantamrazov</id>
+    <name>Demo</name>
+    <vendor email="tamrazov05@gmail.com">ivantamrazov</vendor>
+
+    <description><![CDATA[
+    Plugin for extracting selected code directly to pastebin
+    ]]>v</description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+
+
+        <action id="ivantamrazov.PastebinAction" class="ivantamrazov.PastebinAction" text="PastebinAction"
+                description="Plugin for extracting selected code directly to pastebin">
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt BACK_SLASH"
+                               second-keystroke="ctrl alt QUOTE"/>
+        </action>
+    </actions>
+</idea-plugin>

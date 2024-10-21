@@ -1,0 +1,23 @@
+plugins{
+    id 'org.jetbrains.intellij' version '1.17.3'
+}
+
+intellij {
+    version = "2024.1"
+    type = "IU"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Your dependencies here
+    implementation 'com.squareup.okhttp3:okhttp:4.11.0'
+    implementation 'com.squareup.okio:okio:3.5.0'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
