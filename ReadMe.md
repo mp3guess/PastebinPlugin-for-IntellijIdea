@@ -12,5 +12,6 @@ paste it in the API_KEY field in the PastebinApiService class(in our case I used
 
 4)Select the text you want to share and press option+command+\ and then press option+command+'
 
-
-
+Warning:
+This plugin is not working when Pastebin is under maintenance.
+In case you use free version of Pastebin, you can only create 25 pastes per day using a single API key.
